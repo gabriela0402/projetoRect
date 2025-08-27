@@ -1,17 +1,16 @@
 
 import './App.css';
-import Cartao from './components/Cartao';
-import Header from './components/Header';
-import Footer  from './components/Footer';
+import Evento from './components/Evento';
+import Formulario from './components/Formulario';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Cartao nome="Fulano" prof="Médico" desc="Olá, Sou o fulano" foto = "https://placehold.co/150"/>
-      <Footer />
+      <h1>Tetanto Eventos</h1>
+      <Evento numero="1"/>
+      <Evento numero="2"/>
+      <Formulario/>
     </div>
   );
 }
-
 export default App;
