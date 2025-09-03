@@ -9,7 +9,7 @@ function Formulario(){
     }
 
     const [nome, setNome] = useState("Gabriela")
-    const [senha, SetSenha] = useState()
+    const [senha, SetSenha] = useState('')
 
     return(
         <div>
@@ -27,6 +27,8 @@ function Formulario(){
                     <input type="submit" value="Cadastrar"/>
                 </div>
             </form>
+            <p>Nome: {nome}</p>
+            <p>Senha: {senha}</p>
         </div>
     )
 }
